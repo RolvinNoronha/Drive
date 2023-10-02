@@ -62,7 +62,7 @@ const Home = () => {
 
         verifyCookie();
         getData();
-    }, [cookies, removeCookie, modal]);
+    }, [cookies, removeCookie, modal, videoData]);
     
     const Logout = () => {
         removeCookie("token", []);

@@ -36,5 +36,9 @@ In the server directory, you can run:
 
 ### `nodemon index.js`
 
-Runs the server in the development mode.\
-Open [http://localhost:5000](http://localhost:5000)
+Runs the server in the development mode on http://localhost:5000.
+
+
+## Demo
+
+https://drive.google.com/file/d/1CL84gX6Ay0i-YHLnzrv7o7L3xlUjlZgv/view?usp=drive_link
