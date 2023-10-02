@@ -1,0 +1,44 @@
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video {
+    padding: 1.4rem;
+    margin: 1.8rem;
+    background-color: white;
+    box-shadow: 2px 4px 10px #8f8e8e;
+    transition: all 0.2s ease-out;
+}
+
+.video:hover {
+    transform: scale(1.02);
+}
+
+.video > * {
+    margin: 2rem;
+}
+
+.video_img {
+    height: 20rem;
+    width: 20rem;
+    margin-bottom: 1.8rem;
+}
+
+.video_caption {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.video_date {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

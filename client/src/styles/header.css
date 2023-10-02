@@ -1,0 +1,118 @@
+
+.header {
+    height: 8rem;
+    background-color: var(--color_primary);
+    box-shadow: 5px 8px 10px #8f8e8e;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.header_title {
+    font-weight: 400;
+    font-size: 4rem;
+    color: var(--color_secondary);
+    padding: 1rem;
+    margin-left: 1.5rem;
+}
+
+.signincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+.signin {
+    padding: 2rem;
+    margin: 2rem;
+    width: 60%;
+}
+
+.signin_title {
+    font-size: 2.8rem;
+    margin-bottom: 1.8rem;
+    font-weight: 300;
+}
+
+.signin_form > * {
+    margin-bottom: 1.2rem;
+}
+
+.signin_form-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin_button {
+    border: none;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 30%;
+    font-family: inherit;
+    font-size: 1.4rem;
+    background-color: var(--color_primary);
+    color: var(--color_secondary);
+}
+
+.signin_button:hover {
+    cursor: pointer;
+}
+
+.signin_form-input {
+    margin-bottom: 1.2rem;
+}
+
+.signin_form-input > label {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.signin_form-input > input {
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    width: 90%;
+    padding: 1.2rem 2rem;
+}
+
+.signin_message {
+    font-size: 1.4rem;
+}
+
+.signin_message > span {
+    color: steelblue;
+}
+
+.signin_message > span:hover {
+    cursor: pointer;
+}
+
+.header_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+    padding-right: 1rem;
+}
+
+.header_link {
+    margin-right: 1.6rem;
+    border: none;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1.6rem;
+    margin-left: auto;
+    background-color: var(--color_secondary);
+    color: inherit;
+}
+
+.header_link:hover {
+    cursor: pointer;
+}
